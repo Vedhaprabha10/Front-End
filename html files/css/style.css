@@ -1,0 +1,77 @@
+h3{
+    color: rgb(83, 255, 3);
+    color:#64964b;
+    background-color: rgb(255,20, 60,.1);
+    background-color: rgb(83, 255, 3,.1);
+}
+body{
+    background-color: lavender
+}
+body{
+    font-family: cursive, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight:normal;
+    text-transform: capitalize;
+   /* text-decoration: line-through; */
+   /* text-decoration: none; */
+   
+   
+}
+h2,h3{
+    font-size: 24px;
+    border: 1px solid black;
+    border: 1px solid whitesmoke;
+    background-color: gainsboro;
+    /* padding: 5px; */
+    border-radius: 10px 30px;
+    -moz-border-raius:10px;
+    box-shadow: 10px 20px 20px gray;
+}
+p{
+    text-align: left;
+    letter-spacing: .15;
+    vertical-align: bottom;
+    text-indent: 100px;
+    text-shadow: 2px 2px 4px;
+    max-width: 1200px;
+    /* max-height: 300px; */
+    /* overflow: scroll; */
+    /* border: 1px solid whitesmoke;
+    background-color: gainsboro; */
+    /* padding: 5px; */
+    /* border-radius: 10px 30px;
+    -moz-border-raius:10px;
+    box-shadow: 10px 10px 20px gray; */
+    /* border: 20px solid;
+    border-image: url(/images/OIP.jpg) 30 round; */
+
+}
+p:first-letter{
+    font-size: 2em;
+}
+a:visited{
+    color: burlywood;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+    color: coral;
+}
+a:active{
+    color: cadetblue;
+}
+a:focus{
+    color: coral        ;
+}
+p[class]{
+    color:darkviolet
+}
+li{
+    display: inline;
+    margin: 10px;
+}
+/* .cpimg-soon{
+    display: none;
+} */

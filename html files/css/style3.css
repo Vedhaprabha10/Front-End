@@ -1,0 +1,53 @@
+body{
+    background: url(/images/login.jpg);
+    font-family:cursive, monospace;
+    margin: 100px 75px;
+}
+.reg-from{
+    width: 500px;
+    margin: 200px ;
+    /* background-color: #FFABAB; */
+    color: #D14D72;
+    padding: 20px 20px 20px 20px;
+    font-size: 30px auto;
+    border-radius: 10px;
+}
+.reg-from h3{
+    color: #D14D72;
+    text-align: center;
+}
+.reg-from .textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid #ce2454;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+input:focus{
+    background-color: #FFABAB;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color:#FA9884 ;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1 px solid #ce2454;
+    box-shadow: 2px;
+}
+.radio input{
+    accent-color:#BA90C6;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}

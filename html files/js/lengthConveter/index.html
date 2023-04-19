@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>leght conveter</title>
+</head>
+<body>
+    
+    <!-- cm to inches -->
+    <!-- <div id="wrapper">
+        <h2>cm to inches</h2>
+        <div class="inputdiv">
+            <input type="text" id="input" placeholder="leght in cm">
+        </div>
+<div>
+    <button type="submit" onclick="conveter()">Conveter to inches</button>
+</div>
+<div id="result"> -->
+
+<!-- </div>
+    </div>
+    <script>
+        function conveter(){
+            const cmvalue = Number(document.getElementById('input').value)
+            const incheVal = cmvalue/2.54
+            const result = document.getElementById("result")
+            result.innerHTML = incheVal.toFixed(3)+" inches"
+        }
+    </script> -->
+
+    <!-- Celcius to Fahrenheit -->
+    <div id="wrapper">
+        <h2>Celcius to Fahrenheit</h2>
+        <div id="inputdiv">
+            <input type="text" id="input" placeholder="C to F">
+        </div>
+        <div>
+            <button type="submit" onclick="conveter()">Convet to Fahrenheit</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script>
+        function conveter(){
+          const C_val = Number(document.getElementById('input').value)
+          const F_val = (C_val*1.8)+32
+          const result = document.getElementById('result')
+          result.innerHTML = F_val.toFixed(1)+'F'
+        }
+    </script>
+</body>
+</html>

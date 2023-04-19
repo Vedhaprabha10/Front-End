@@ -1,0 +1,16 @@
+.para1{
+    background-color: bisque;
+}
+.para2{
+    background-color: darkkhaki;
+}
+.para3{
+    background-color:fuchsia;
+}
+@media (min-width:801px){
+    .container p{
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+}

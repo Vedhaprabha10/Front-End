@@ -1,0 +1,12 @@
+ul{
+    /* list-style-type: circle; */
+
+}
+ol{
+    list-style-type: square;
+    
+}
+li{
+    margin: 10px;
+    list-style: inside circle;
+}
